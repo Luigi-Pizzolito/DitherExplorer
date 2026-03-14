@@ -27,6 +27,13 @@ On many distros, ensure at least:
 go run ./...
 ```
 
+## Preview
+
+Animated demo (excerpt from [here](https://www.youtube.com/watch?v=4ki6PwFu69Y)):
+
+![Output fullscreen demo](assets/output-fullscreen-demo.gif)
+
+
 ## Controls
 
 - Start Capture / Stop Capture
