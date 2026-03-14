@@ -31,8 +31,12 @@ go run ./...
 
 - Start Capture / Stop Capture
 - Algorithm selector dropdown: Threshold, Floyd-Steinberg
-- Rescale dropdown: Nearest, Bilinear, Bicubic, Lanczos (default)
+- Color toggle (Color / B/W)
+- Palette quantization dropdown: Uniform, Popular, Median Cut, K-Means
+- Palette mode dropdown: Dynamic (updates every frame), Static
+- Resample dropdown: Nearest, Bilinear, Bicubic, Lanczos (default)
 - Pre-scale slider (applies before dithering)
+- Output resolution readout (under pre-scale)
 - Output levels slider (snaps to 2, 4, 8, 16)
 - Threshold slider
 - Error Diffusion slider (shown for Floyd-Steinberg)

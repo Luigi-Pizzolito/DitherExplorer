@@ -1,0 +1,25 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+cmd = "go build -o ./tmp/ditherprinter ."
+bin = "./tmp/ditherprinter"
+full_bin = "./tmp/ditherprinter"
+include_ext = ["go"]
+exclude_dir = ["tmp", "vendor", ".git"]
+delay = 200
+stop_on_error = true
+send_interrupt = true
+kill_delay = "200ms"
+
+[log]
+time = true
+
+[color]
+main = "cyan"
+watcher = "yellow"
+build = "green"
+runner = "magenta"
+
+[misc]
+clean_on_exit = true
