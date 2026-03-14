@@ -30,16 +30,28 @@ go run ./...
 ## Controls
 
 - Start Capture / Stop Capture
-- Algorithm selector dropdown: Threshold, Floyd-Steinberg
+- Algorithm selector dropdown: Threshold, Floyd-Steinberg, Bayer, Atkinson, JJN, Sierra, Blue Noise Threshold, Blue Noise Hybrid
 - Color toggle (Color / B/W)
 - Palette quantization dropdown: Uniform, Popular, Median Cut, K-Means
-- Palette mode dropdown: Dynamic (updates every frame), Static
+- Palette mode dropdown: Dynamic, Static
+- Palette update interval slider (1, 2, 4, 8, 16, 32 frames when Dynamic mode is active)
 - Resample dropdown: Nearest, Bilinear, Bicubic, Lanczos (default)
+- Edge sharpen dropdown: None, Unsharp, Line Boost, Anime Edge
 - Pre-scale slider (applies before dithering)
 - Output resolution readout (under pre-scale)
-- Output levels slider (snaps to 2, 4, 8, 16)
+- Output levels slider (snaps to 2, 4, 8, 16, 32, 64)
 - Threshold slider
-- Error Diffusion slider (shown for Floyd-Steinberg)
+- Error Diffusion slider (shown for diffusion algorithms)
+- Ordered strength slider (shown for Bayer)
+- Blue-noise amount slider (shown for blue-noise algorithms)
+- Click the Output panel to show output-only fullscreen in the window (no labels/sidebar); click anywhere to exit.
+
+## Default startup settings
+
+- Algorithm: Blue Noise Threshold
+- Edge sharpen: Line Boost at 0.45 strength
+- Palette mode: Dynamic
+- Palette update interval: every 4 frames
 
 ## Notes
 
