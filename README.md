@@ -33,6 +33,10 @@ Animated demo (excerpt from [here](https://www.youtube.com/watch?v=4ki6PwFu69Y))
 
 ![Output fullscreen demo](assets/output-fullscreen-demo.gif)
 
+UI overview screenshot:
+
+![Dither Explorer UI](assets/ui-overview-screenshot.png)
+
 
 ## Controls
 
